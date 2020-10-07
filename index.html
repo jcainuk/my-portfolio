@@ -18,7 +18,7 @@
       padding: 20px;
       border: 10px solid #16232C;
       display: flex;
-      flex-direction: row;
+      flex-direction: column;
       justify-content: space-evenly;
     }
 
@@ -114,6 +114,16 @@
     .box-shadow {
       box-shadow: 10px 10px 5px grey;
     }
+
+    nav ul {display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    }
+
+    footer ul {display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;}
+    
   </style>
 </head>
 
@@ -123,7 +133,15 @@
       <h1>Jonathan Cain:<br> Trainee Web Developer</h1>
 
     </div>
+    <nav>
 
+      <ul>
+        <li><a href="#home">About</a></li>
+        
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
   </header>
 
   <main>
