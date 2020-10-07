@@ -10,12 +10,10 @@
     body {
 
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-
-   
     }
 
     header {
-      
+
       background-color: #3346FF;
       padding: 20px;
       border: 10px solid #16232C;
@@ -24,8 +22,16 @@
       justify-content: space-evenly;
     }
 
-    h1 { color: #F1EFE2; font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; font-size: 60px; font-weight: bold; letter-spacing: -1px; line-height: 1; text-align: center; 
-    text-shadow: 0 0 5px black;}
+    h1 {
+      color: #F1EFE2;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      font-size: 60px;
+      font-weight: bold;
+      letter-spacing: -1px;
+      line-height: 1;
+      text-align: center;
+      text-shadow: 0 0 5px black;
+    }
 
     main {
 
@@ -105,15 +111,18 @@
       color: orange;
     }
 
-   
+    .box-shadow {
+      box-shadow: 10px 10px 5px grey;
+    }
   </style>
 </head>
 
 <body>
-  <header><div>
-    <h1>Jonathan Cain:<br> Trainee Web Developer</h1>
-   
-  </div>
+  <header>
+    <div>
+      <h1>Jonathan Cain:<br> Trainee Web Developer</h1>
+
+    </div>
 
   </header>
 
@@ -121,7 +130,7 @@
     <section class="inner1">
       <h2>Welcome</h2>
       <div class="text-align">
-        <img src="./jcain.jpeg" width="35%">
+        <img class="box-shadow" src="./jcain.jpeg" width="35%">
       </div>
       <h2>Introduction</h3>
 
@@ -176,7 +185,7 @@
           allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
           allowfullscreen></iframe> </div>
 
-      
+
     </section>
 
   </main>
