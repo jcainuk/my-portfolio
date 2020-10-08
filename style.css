@@ -6,7 +6,7 @@
 
     header {
 
-      background-color: #3346FF;
+      
       background-color: #FFB446;
       padding: 20px;
       border: 10px solid #16232C;
@@ -91,7 +91,7 @@
 
     footer {
 
-      background-color: orange;
+        background-color: #FFB446;
       padding: 30px;
       border: 10px solid #16232C;
 
@@ -132,7 +132,7 @@
       width: 50px;
       text-align: center;
       text-decoration: none;
-      box-shadow: 10px 10px 5px grey;
+      
       border: 3px solid black;
       border-radius: 10px;
       margin: 10px;
@@ -141,7 +141,7 @@
     /* Add a hover effect for social media icons */
     .fa:hover {
       opacity: 0.7;
-      box-shadow: 10px 10px 5px grey;
+     
     }
 
     .fa-facebook {
