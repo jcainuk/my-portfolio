@@ -1,13 +1,15 @@
 
     body {
 
+      
+
       font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
     }
 
     header {
 
       
-      background-color: #FFB446;
+      background-color: #16232C;
       padding: 20px;
       border: 10px solid #16232C;
     
@@ -17,7 +19,7 @@
     }
 
     h1 {
-      color: black;
+      color: white;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
       font-size: 60px;
       font-weight: bold;
@@ -38,6 +40,7 @@
       padding: 30px;
       align-content: space-around;
       border: 10px solid #16232C;
+     
     }
 
     .inner1 {
@@ -111,10 +114,28 @@
       box-shadow: 10px 10px 5px grey;
     }
 
-    nav ul {
+    
+
+    nav   {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
+      flex-wrap: wrap;
+    }
+
+    nav a {
+
+      padding: 20px;
+      font-size: 20px;
+      width: 100px;
+      text-align: center;
+      text-decoration: none;
+      font-family:  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+      background: #7763AA;
+      color: white;
+      border: 3px solid black;
+      border-radius: 10px;
+      margin: 10px;
     }
 
     footer div {
