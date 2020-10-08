@@ -8,175 +8,7 @@
   <!-- Add social media icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
- <style>
-    body {
 
-      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
-    }
-
-    header {
-
-      background-color: #3346FF;
-      padding: 20px;
-      border: 10px solid #16232C;
-      display: flex;
-      flex-direction: column;
-      justify-content: space-evenly;
-    }
-
-    h1 {
-      color: #F1EFE2;
-      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      font-size: 60px;
-      font-weight: bold;
-      letter-spacing: -1px;
-      line-height: 1;
-      text-align: center;
-      text-shadow: 0 0 5px black;
-    }
-
-    main {
-
-      background-color: #215088;
-      flex-direction: row;
-      display: flex;
-      align-content: space-around;
-      flex-wrap: wrap;
-      justify-content: space-evenly;
-      padding: 30px;
-      align-content: space-around;
-      border: 10px solid #16232C;
-    }
-
-    .inner1 {
-      margin-top: 30px;
-      background-color: #F1EFE2;
-      padding: 20px;
-      flex-basis: 450px;
-      border-radius: 10px;
-      border: 10px solid #16232C;
-
-    }
-
-    .inner2 {
-      background-color: #F1EFE2;
-      margin-top: 30px;
-      padding: 20px;
-      flex-basis: 450px;
-      border-radius: 10px;
-      border: 10px solid #16232C;
-    }
-
-    .video_wrapper {
-      position: relative;
-      padding-bottom: 56.25%;
-      /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
-      border: 10px solid black;
-      border-radius: 10px;
-    }
-
-    .img_wrapper {
-      position: relative;
-      padding-bottom: 56.25%;
-      /* 16:9, for an aspect ratio of 1:1 change to this value to 100% */
-      border: 10px solid #FDFE87;
-
-    }
-
-    iframe {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-    }
-
-    .text-align {
-
-      text-align: center;
-
-    }
-
-    footer {
-
-      background-color: orange;
-      padding: 30px;
-      border: 10px solid #16232C;
-
-    }
-
-    a {
-      color: #215088;
-      background-color: #F1EFE2;
-    }
-
-    a:hover {
-      color: orange;
-      background-color: #F1EFE2;
-    }
-
-    .box-shadow {
-      box-shadow: 10px 10px 5px grey;
-    }
-
-    nav ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-    }
-
-    footer ul {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-evenly;
-      flex-wrap: wrap;
-    }
-
-
-    /* Style all social media icons */
-    .fa {
-      padding: 20px;
-      font-size: 30px;
-      width: 50px;
-      text-align: center;
-      text-decoration: none;
-      box-shadow: 10px 10px 5px grey;
-      border: 3px solid black;
-      border-radius: 10px;
-      margin: 10px;
-    }
-
-    /* Add a hover effect for social media icons */
-    .fa:hover {
-      opacity: 0.7;
-      box-shadow: 10px 10px 5px grey;
-    }
-
-    .fa-facebook {
-      background: #3B5998;
-      color: white;
-    }
-
-    .fa-twitter {
-      background: #55ACEE;
-      color: white;
-    }
-
-    .fa-instagram {
-      background: #125688;
-      color: white;
-    }
-
-    .fa-linkedin {
-      background: #007bb5;
-      color: white;
-    }
-
-    .fa-github {
-      background: black;
-      color: white;
-    }
-  </style>
 </head>
 
 <body>
@@ -200,7 +32,7 @@
     <section class="inner1">
       <h2>Welcome</h2>
       <div class="text-align">
-        <img class="box-shadow" src="./jcain.jpeg" width="35%">
+        <img class="box-shadow" src="./jcain.jpeg" width="35%" alt="Photo of Jonathan">
       </div>
       <h2>Introduction</h3>
 
@@ -266,23 +98,24 @@
   <footer>
     <h2>Social Links</h2>
 
-    <ul>
+    <div>
 
-      <a href="https://twitter.com/jcainuk" class="fa fa-twitter" target="blank"></a>
+      <a href="https://twitter.com/jcainuk" class="fa fa-twitter" target="blank" alt="Twitter"></a>
 
-      <a href="https://www.instagram.com/jojo_mystified/" class="fa fa-instagram" target="blank"></a>
+      <a href="https://www.instagram.com/jojo_mystified/" class="fa fa-instagram" target="blank" alt="Instagram"></a>
 
-      <a href="https://www.linkedin.com/in/jcain-esol/" class="fa fa-linkedin" target="blank"></a>
+      <a href="https://www.linkedin.com/in/jcain-esol/" class="fa fa-linkedin" target="blank" alt="LinkedIn"></a>
 
-      <a href="https://github.com/jcainuk" class="fa fa-github" target="blank"></a>
+      <a href="https://github.com/jcainuk" class="fa fa-github" target="blank" alt="GitHub"></a>
 
-      <!--<li><a href="https://github.com/jcainuk" target="_blank">GitHub</a>
+
+
+      <a href="https://www.freecodecamp.org/jcainuk" class="fa fa-free-code-camp" target="_blank" alt="FreeCodeCamp"></a>
       
-      <li><a href="  https://www.freecodecamp.org/jcainuk" target="_blank">FreeCodeCamp</a></li>-->
 
 
 
-    </ul>
+    </div>
 
     </div>
   </footer>

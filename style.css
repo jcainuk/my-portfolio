@@ -115,7 +115,7 @@
       justify-content: space-evenly;
     }
 
-    footer ul {
+    footer div {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
@@ -166,4 +166,9 @@
       background: black;
       color: white;
     }
-  
+
+    .fa-free-code-camp {
+        background: black;
+      color: white;
+
+    }
