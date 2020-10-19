@@ -307,6 +307,8 @@ form button[type="submit"] {padding: 10px;
   border-radius: 10px;
   margin: 10px;
   padding: 5px;
+  cursor: pointer;
+  
 }
 
 form button[type="reset"] {padding: 10px;
@@ -322,6 +324,7 @@ form button[type="reset"] {padding: 10px;
   
   padding: 5px;
   margin:10px;
+ cursor: pointer;
 }
 
 form button:hover{
