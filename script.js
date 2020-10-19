@@ -5,4 +5,6 @@ function validation(){
     var subject = document.getElementById("subject").value;
     var message = document.getElementById("message").value;
 
+    var error_message = document.getElementById("error_message");
+
 }
