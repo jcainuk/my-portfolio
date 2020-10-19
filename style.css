@@ -295,9 +295,9 @@ list-style: none;
 }
 li {margin: auto;}
 
-form button[type="submit"] {padding: 10px;
+#submitButton {padding: 20px;
   font-size: 20px;
-  width: 90%;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -308,12 +308,13 @@ form button[type="submit"] {padding: 10px;
   margin: 10px;
   padding: 5px;
   cursor: pointer;
-  
+  height: auto;
+  margin: 20px;
 }
 
-form button[type="reset"] {padding: 10px;
+button[type="reset"] {padding: 20px;
   font-size: 20px;
-  width: 90%;
+  width: 100px;
   text-align: center;
   text-decoration: none;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -325,6 +326,8 @@ form button[type="reset"] {padding: 10px;
   padding: 5px;
   margin:10px;
  cursor: pointer;
+ height: auto;
+ margin: 20px;
 }
 
 form button:hover{

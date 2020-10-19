@@ -1,10 +1,14 @@
-function validation(){
 
-    var name = document.getElementById("name").value;
-    var email = document.getElementById("email").value;
-    var subject = document.getElementById("subject").value;
-    var message = document.getElementById("message").value;
+const form = document.getElementById("myform");
 
-    var error_message = document.getElementById("error_message");
+const name = document.getElementById("name");
+const email = document.getElementById("email");
+const subject = document.getElementById("subject");
+const message = document.getElementById("message");
 
-}
+form.addEventListener('click', e => {
+    e.preventDefault();
+    console.log(name.value);
+
+
+});
