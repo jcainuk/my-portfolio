@@ -223,6 +223,7 @@ footer div {
 
 
 form {
+  
   max-width: 500px;
   height: auto;
   margin: auto;
@@ -257,7 +258,10 @@ form textarea {
 
 width: 90%;
 text-align: start;
+
 resize: vertical;
+  overflow: auto;
+
 height: 80px;
 margin:10px;
 }
@@ -268,13 +272,27 @@ list-style: none;
 }
 li {margin: auto;}
 
-form button {padding: 10px;
+form button[type="submit"] {padding: 10px;
   font-size: 20px;
-  width: 80px;
+  width: 90%;
   text-align: center;
   text-decoration: none;
   font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-  background: #7763AA;
+  background: #125688;
+  color: white;
+  border: 3px solid black;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 5px;
+}
+
+form button[type="reset"] {padding: 10px;
+  font-size: 20px;
+  width: 90%;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  background: black;
   color: white;
   border: 3px solid black;
   border-radius: 10px;
