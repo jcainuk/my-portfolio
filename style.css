@@ -98,6 +98,7 @@
     .text-align {
 
       text-align: center;
+      
 
     }
 
@@ -205,8 +206,14 @@
 
     }
 
-    img {
+    .selfie {
 
       max-width: 35%;
+      height: auto;
+    }
+
+    .ocean {
+
+      max-width: 100%;
       height: auto;
     }
