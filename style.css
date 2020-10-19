@@ -246,7 +246,7 @@ form {
 
   
 
-    background-color: #FFB446;
+  background-color: #F1EFE2;
   padding: 5px;
   border: 10px solid #16232C;
   border-radius: 10px;
@@ -331,3 +331,15 @@ form button:hover{
   color: orange;
   background-color: #F1EFE2;}
 
+/* Error styling in form on contact page */
+
+#error_message {
+/* Div to appear if there is an error when user completing the form */
+margin-bottom: 20px;
+padding: 0px; /* Start at padding zero so error not shown */
+background: #fe8b8e;
+text-align: center;
+font-size: 14px;
+transition: all 0.5s ease; /* This is to smooth the transition effect */
+border-radius: 10px;
+}

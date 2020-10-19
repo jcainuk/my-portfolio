@@ -8,7 +8,7 @@
   <!-- Add social media icon library -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-
+  <script src="script.js"></script>
 </head>
 
 <body>
@@ -23,61 +23,53 @@
       <a href="about.html">About</a>
       <a href="projects.html">Projects</a>
       <a href="contact.html">Contact</a>
-    
+
 
     </nav>
     <h2>Contact Me</h2>
   </header>
 
   <main>
-    
-    
-
-      <form id="myform">
-      
-        <div id="error_message"></div>
-
-        <ul>
-
-          <li>
-            <label for="name">Name:</label>
-            <input type="text" placeholder="Type your name" id="name"></li>
-          <li>
-            <label for="email">E-mail:</label>
-            <input type="text" placeholder="Type your e-mail" id="email"></li>
-
-
-          <li>
-            <label for="subject">Subject:</label>
-            <input type="text" placeholder="Subject" id="subject"></li>
 
 
 
-          <li>
-            <label for="message">Message:</label>
-            <textarea id="message" placeholder="Type your message here"></textarea></li>
+    <form id="myform" onsubmit="return validation()">
+
+      <div id="error_message"></div>
+
+      <ul>
+
+        <li>
+          <label for="name">Name:</label>
+          <input type="text" placeholder="Type your name" id="name"></li>
+        <li>
+          <label for="email">E-mail:</label>
+          <input type="text" placeholder="Type your e-mail" id="email"></li>
+
+
+        <li>
+          <label for="subject">Subject:</label>
+          <input type="text" placeholder="Subject" id="subject"></li>
 
 
 
-          <button type="submit">Submit</button>
-
-          <button type="reset">Reset</button>
-
-
+        <li>
+          <label for="message">Message:</label>
+          <textarea id="message" placeholder="Type your message here"></textarea></li>
 
 
-      </form>
+
+        <button type="submit">Submit</button>
+
+        <button type="reset">Reset</button>
 
 
 
 
+    </form>
 
 
 
-
-
-
-  
 
   </main>
   <footer>
@@ -107,7 +99,7 @@
   </footer>
 
 
-  <script src="script.js"></script>
+  
 </body>
 
 </html>
