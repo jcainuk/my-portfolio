@@ -223,7 +223,8 @@ footer div {
 .selfie {
 
   max-width: 35%;
-  height: auto
+  height: auto;
+  border-radius: 10px;
 
 }
 
