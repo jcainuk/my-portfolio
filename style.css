@@ -295,7 +295,7 @@ list-style: none;
 }
 li {margin: auto;}
 
-#submitButton {padding: 20px;
+button[type="submit"]  {padding: 20px;
   font-size: 20px;
   width: 100px;
   text-align: center;
