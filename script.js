@@ -1,9 +1,4 @@
 
-let submit = document.getElementById('submit');
-
-submit.addEventListener(click, () => {
-alert('Submit button clicked');
-
-
-})
-
+document.getElementById('submit').addEventListener( 'click', function() {
+   alert('Button has been clicked');
+});
