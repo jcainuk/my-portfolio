@@ -10,7 +10,7 @@ function validation() {
    let name = document.getElementById('name').value;
    let email = document.getElementById('email').value;
    let subject = document.getElementById('subject').value;
-   let message = document.getElementById('message'.value);
+   let message = document.getElementById('message').value;
 
    //Declared a text variable to collect error messages:
 
@@ -69,7 +69,9 @@ function validation() {
       //Return false to stop form from being submitted
       return false;
    }
+ 
 
+ 
 alert("Form Submitted Successfully!");
 
 //Return true to submit form.
