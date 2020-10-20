@@ -20,8 +20,8 @@ function validation() {
 
    let error_message = document.getElementById("error_message");
 
-   ` ` `When function called the error div gets padding so it shows!
-   (zero padding at start as it is hidden to begin with!) ` ` `
+   /*When function called the error div gets padding so it shows!
+   (zero padding at start as it is hidden to begin with!) */
 
    error_message.style.padding = "10px";
 
